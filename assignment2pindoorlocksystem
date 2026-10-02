@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+int correctPIN=1111;
+int userPIN;
+printf("provide your pin:");
+scanf("%d",&userPIN);
+if (userPIN==correctPIN){
+    printf("Access granted!\n");
+}else{
+    printf("access denied!\n");
+    printf("wrong pin.\n");
+}
+
+return 0;
+
+}
